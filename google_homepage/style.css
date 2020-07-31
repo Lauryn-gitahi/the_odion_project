@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    padding: 20px;
+    min-height: 8vh;
+    
+}
+.list-items{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    float: right;   
+}
+.list-items ul{
+    float: right;
+}
+.list-items li{
+    list-style: none;
+}
+
+.list-items  a{
+  text-decoration: none;
+  color: black;
+}
+
+.google-section{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;   
+}
+
+.form{
+  text-align: center;
+}
+ form input{
+    width:40%;
+    height:40px;
+    border: none;
+    /* background: grey; */
+    border-radius: 20px; 
+    border: 1px solid gainsboro;
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0px;
+} 
+
+  button{
+      width:2rem;
+      background: none;
+      border: none;
+  }
+
+ .search, .submit{
+     width:10%;
+     margin:30px auto;
+     height: 40px;
+     background:whitesmoke;
+     outline: none;
+     border: none;
+      color: grey;
+ }   
+
+ /* button:hover {
+     cursor: pointer;
+     border: 1px solid gray;
+ } */
+ p{
+     text-align: center;
+     font-size: 15px;
+     font-weight: bold;
+ }
+ span{
+     color:blue;
+ }
+
+ footer{
+    position: fixed;
+    bottom: 0;
+    border: 1px solid black;
+    width: 100%;
+    background: whitesmoke;
+ }
+
+ .kenya{
+     width: 100%;
+     padding:10px 10px ;
+     border-bottom:1px solid grey ;
+     height: 40px;
+     color: gray;
+     
+ }
+ 
+ ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30% ; 
+    padding-left: 10px;
+}
+
+.left li{
+    list-style: none;
+    padding-top: 15px;
+   padding-bottom: 0px; 
+}
+
+.left a{
+    text-decoration: none;
+   color: gray;
+   font-weight: 200;
+}
+
+ .right  ul{
+    /* display: flex; */
+    justify-content: space-around;
+    width: 20%;
+    float: right;
+    padding: auto;
+}  
+
+
+ .right li{
+    list-style: none;
+} 
+
+.right a{
+    text-decoration: none;
+   color: gray;
+   font-weight: 200;
+   padding-right: 20px;
+   padding-top: 0;
+} 
